@@ -1,0 +1,22 @@
+class Worker
+{
+int id = 10;
+double salary = 52432.25;
+}
+class WorkerInfo
+{
+String name = "Samba";
+String name = "Dinga";
+}
+public class Demo1
+{
+public static void main(String[] args)
+{
+Worker v1 = new Worker();
+WorkerInfo i1 = new WorkerInfo();
+System.out.println(v1.id+" "+v1.salary+" "+i1.name);
+Worker v2 = new Worker();
+WorkerInfo i2 = new WorkerInfo();
+System.out.println(v2.id+" "+v2.salary+" "+i2.name);
+}
+}

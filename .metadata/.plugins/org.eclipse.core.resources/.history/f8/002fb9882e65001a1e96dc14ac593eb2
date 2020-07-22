@@ -1,0 +1,23 @@
+package method;
+
+public class ReturnType {
+	
+	static int myMethod(int a ,int b){
+		System.out.println("method with return type  int ");
+		return (a+b);
+	}
+	
+	double myMethod(double x, double y){
+		System.out.println("Method with rturn type double ");
+		return(x+y);
+	}
+
+	public static void main(String[] args) {
+		ReturnType r1 = new ReturnType();
+		r1.myMethod(2.40, 5.67);
+		myMethod(5, 6);
+		
+
+	}
+
+}

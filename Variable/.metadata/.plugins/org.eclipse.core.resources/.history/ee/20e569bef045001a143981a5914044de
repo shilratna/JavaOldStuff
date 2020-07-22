@@ -1,0 +1,14 @@
+class Employee
+{
+static double salary;
+static String name = "Samba";
+}
+public class Demo1
+{
+public static void main(String args[])
+{
+Employee.salary = 100000;
+System.out.println(Employee.name + "'s average salary:" + Employee.salary);
+Employee.salary = 1000;
+}
+}

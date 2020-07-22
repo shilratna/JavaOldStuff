@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;RoomWork.CW6_Sample1&apos; to &apos;CW6_Sample2&apos;&#x0A;- Original project: &apos;Qspider&apos;&#x0A;- Original element: &apos;RoomWork.CW6_Sample1&apos;&#x0A;- Renamed element: &apos;RoomWork.CW6_Sample2&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;CW6_Sample1&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;RoomWork{CW6_Sample1.java[CW6_Sample1" matchStrategy="1" name="CW6_Sample2" qualified="false" references="true" similarDeclarations="false" stamp="1581587196328" textual="false" version="1.0"/>
+</session>

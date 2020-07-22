@@ -1,0 +1,38 @@
+import java.util.Arrays;
+import java.util.Random;
+
+public class ArraySortRandomEvenOdd {
+     
+	public static void main(String[] args) {
+			Random r1 = new Random(); // creating Random object
+			int arr[] = new int[10];
+			for(int i=0;i< arr.length;i++)
+			{
+			arr[i]=r1.nextInt(1000);      // storing random integers in an array
+			System.out.println("Random Number ="+arr[i]); // printing each array element
+			}
+			
+			Arrays.sort(arr);              //Sorting random integer 
+			System.out.println("Random Element After sorting ="); // printing each element in sorting manner
+			for(int i=0;i<arr.length;i++)
+			{
+			System.out.print(arr[i]+" ");
+			}
+			
+			System.out.println();
+			
+			for(int i=0; i<arr.length;i++) 
+			{
+				if(arr[i] % 2 == 0)
+				{
+					System.out.println(arr[i]+" is even number");
+				}
+				else 
+				{
+					System.out.println(arr[i]+" is odd number ");
+				}
+			}
+			
+		}
+
+	}

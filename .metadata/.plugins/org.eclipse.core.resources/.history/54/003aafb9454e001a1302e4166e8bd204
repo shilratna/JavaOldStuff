@@ -1,0 +1,20 @@
+package RoomWork;
+
+class CW6_Sample1 {
+	
+	static int a = 43;
+	static float b = 45.5f;
+
+}
+
+class CW6_Sample2{
+	static int c ;
+	static float d ;
+	
+	public static void main (String [] args)
+	{
+		System.out.println(c = CW6_Sample2.a );
+		System.out.println(d = CW6_Sample2.b );
+	}
+}
+

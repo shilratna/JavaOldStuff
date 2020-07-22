@@ -1,0 +1,16 @@
+package RoomWork;
+
+public class CW3_TypeOfVariable {
+
+	{
+		int a=25;
+		System.out.println(a);
+		int b=0;
+		System.out.println(b);
+		int c;
+		c=25;
+		System.out.println(c);
+
+	}
+
+}
